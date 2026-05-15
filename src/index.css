@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Product Sans", "Google Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-m3-bg: #F0F4F9;
+  --color-m3-surface: #FFFFFF;
+  --color-m3-surface-variant: #E1E2E8;
+  --color-m3-on-surface: #1B1B1F;
+  --color-m3-on-surface-variant: #44474E;
+  
+  --color-m3-primary: #0A56D1;
+  --color-m3-on-primary: #FFFFFF;
+  --color-m3-primary-container: #D3E3FD;
+  --color-m3-on-primary-container: #041E49;
+  
+  --color-m3-secondary: #5E5E5E;
+  --color-m3-secondary-container: #E3E3E3;
+  
+  --color-m3-error: #B3261E;
+  --color-m3-error-container: #F9DEDC;
+  --color-m3-on-error-container: #410E0B;
+  
+  --color-m3-outline: #74777F;
+  --color-m3-outline-variant: #C4C6D0;
+}
+
+body {
+  background-color: var(--color-m3-bg);
+  color: var(--color-m3-on-surface);
+  font-family: var(--font-sans);
+}
+
+.m3-elevation-1 {
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+}
+.m3-elevation-2 {
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3), 0px 2px 6px 2px rgba(0, 0, 0, 0.15);
+}
+.m3-elevation-3 {
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3), 0px 4px 8px 3px rgba(0, 0, 0, 0.15);
+}
